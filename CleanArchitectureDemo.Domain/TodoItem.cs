@@ -11,4 +11,9 @@ public class TodoItem
 
     public string Title { get; init; }
     public bool IsCompleted { get; set; } = false;
+
+    public void MarkAsCompleted()
+    {
+        this.IsCompleted = true;
+    }
 }

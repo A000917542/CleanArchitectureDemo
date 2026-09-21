@@ -11,4 +11,6 @@ public interface ITodoRepository
     // TODO: Create a Repository Delete Method
 
     public IEnumerable<ITodoItem> ListTodos();
+
+    public void MarkTodoItemAsCompleted(int index);
 }
